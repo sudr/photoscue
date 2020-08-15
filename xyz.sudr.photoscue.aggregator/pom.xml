@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>xyz.sudr.photoscue</groupId>
+	<artifactId>xyz.sudr.photoscue.aggregator</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	
+	<packaging>pom</packaging>
+	<name>Photoscue Aggregator Module</name>
+	
+	<modules>
+		<module>../xyz.sudr.photoscue.parent</module>
+		<module>../xyz.sudr.photoscue.model</module>
+		<module>../xyz.sudr.photoscue.persistence</module>
+		<module>../xyz.sudr.photoscue.domain</module>
+		<module>../xyz.sudr.photoscue.provider.local</module>
+		<module>../xyz.sudr.photoscue.admin</module>
+		<module>../xyz.sudr.photoscue.ui</module>
+
+		<module>../xyz.sudr.photoscue.feature</module>
+		<module>../xyz.sudr.photoscue.product</module>
+	</modules>
+</project>

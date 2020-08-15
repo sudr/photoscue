@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Photoscue Model
+Bundle-SymbolicName: xyz.sudr.photoscue.model
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: sudr.xyz
+Automatic-Module-Name: xyz.sudr.photoscue.model
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Export-Package: xyz.sudr.photoscue.model

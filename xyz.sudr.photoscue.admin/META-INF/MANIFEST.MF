@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Photoscue Admin Module
+Bundle-SymbolicName: xyz.sudr.photoscue.admin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: sudr.xyz
+Require-Bundle: javax.inject,
+ org.eclipse.osgi,
+ org.eclipse.jface,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.annotations
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Import-Package: javax.annotation;version="1.2.0",
+ org.osgi.service.component.annotations;version="1.3.0",
+ xyz.sudr.photoscue.persistence
+Automatic-Module-Name: xyz.sudr.photoscue.admin
+Service-Component: OSGI-INF/xyz.sudr.photoscue.admin.services.AdminServiceImpl.xml
+Bundle-ActivationPolicy: lazy

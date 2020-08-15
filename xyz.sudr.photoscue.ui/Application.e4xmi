@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.window.main" label="PhotosCue" width="1400" height="1200">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_Z9YNkNtmEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partsashcontainer.main" horizontal="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_nrumMNthEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partsashcontainer.left" containerData="2000" selectedElement="_2J8J8NtmEeqjfOGFA_i0dg">
+        <children xsi:type="basic:PartStack" xmi:id="_2J8J8NtmEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.0">
+          <children xsi:type="basic:Part" xmi:id="_EylSgNtgEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.project" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.parts.ProjectPart" label="%ui.part.project.label" iconURI="">
+            <toolbar xmi:id="_a99TENthEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.toolbar.0"/>
+          </children>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="__QWU0NtmEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_vH8gINthEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.action" label="%ui.part.action.label"/>
+        </children>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_nzXp0NtiEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partsashcontainer.right" containerData="8000">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_hVjcYNtjEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partsashcontainer.content" containerData="7000" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_CZqPINtnEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.2" containerData="8000">
+            <children xsi:type="basic:Part" xmi:id="_DYgkYNtkEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.image"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_GD6asNtkEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partsashcontainer.detail" containerData="2000">
+            <children xsi:type="basic:PartStack" xmi:id="_I9MNkNtnEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.3" containerData="7000">
+              <children xsi:type="basic:Part" xmi:id="_J15ekNtkEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.info" label="%ui.part.info.label"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_K3604NtnEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.4" containerData="3000">
+              <children xsi:type="basic:Part" xmi:id="_MFC2sNtkEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.tags" label="%ui.part.tag.label"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_MklyENtnEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.partstack.5" containerData="3000">
+          <children xsi:type="basic:Part" xmi:id="_8RQ04NtjEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.part.caoursel"/>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_6wlLisgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.menu.project" label="%ui.menu.project.label" mnemonics="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLi8gZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.handleditem.project.new" label="%ui.menu.project.create" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/action/1x_web/ic_work_black_18dp.png" tooltip="%ui.menu.project.create.tooltip" mnemonics="" command="_QiQscNbQEeqjZYyM3KUD3A"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLjMgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.handleditem.project.delete" label="%ui.menu.project.delete" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/action/1x_web/ic_delete_forever_black_18dp.png" tooltip="%ui.menu.project.delete.tooltip" command="_FfLdcNxKEeqHJORXopbKsw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_hMpq4NwaEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.menu.source" label="%ui.menu.source.label">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AKmJwNwbEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handledmenuitem.source.add" label="%ui.menu.source.add" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/content/1x_web/ic_add_circle_black_18dp.png" tooltip="%ui.menu.source.add.tooltip" command="_OpB94NxKEeqHJORXopbKsw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DAoBENwuEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handledmenuitem.source.remove" label="%ui.menu.source.remove" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/content/1x_web/ic_remove_circle_black_18dp.png" tooltip="%ui.menu.source.remove.tooltip" command="_k4C9wNxKEeqHJORXopbKsw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_6wlLjsgZEeSyMNYR5xypkQ" elementId="help" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLj8gZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.handleditem.about" label="About" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kCzjoNa_EeqjZYyM3KUD3A" elementId="xyz.sudr.photoscue.ui.handledtoolitem.trimbar.top.project.new" label="%ui.menu.project.create" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/action/1x_web/ic_work_black_18dp.png" tooltip="%ui.menu.project.create.tooltip" command="_QiQscNbQEeqjZYyM3KUD3A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLmMgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.handledtoolitem.trimbar.top.project.delete" label="%ui.menu.project.delete" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/action/1x_web/ic_delete_forever_black_18dp.png" tooltip="%ui.menu.project.delete.tooltip" command="_FfLdcNxKEeqHJORXopbKsw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_sKdwkNxMEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NLVJcNxNEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handledtoolitem.trimbar.top.source.add" label="%ui.menu.source.add" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/content/1x_web/ic_add_circle_black_18dp.png" tooltip="%ui.menu.source.add.tooltip" command="_OpB94NxKEeqHJORXopbKsw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hTntYNxNEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handledtoolitem.trimbar.top.source.remove" label="%ui.menu.source.remove" iconURI="platform:/plugin/xyz.sudr.photoscue.ui/icons/content/1x_web/ic_remove_circle_black_18dp.png" tooltip="%ui.menu.source.remove.tooltip" command="_k4C9wNxKEeqHJORXopbKsw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_6wlLh8gZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.handler.aboutCommand" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.handlers.AboutHandler" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_IVIJ0NssEeqjfOGFA_i0dg" elementId="xyz.sudr.photoscue.ui.handler.projectCreateCommand" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.handlers.CreateProjectHandler" command="_QiQscNbQEeqjZYyM3KUD3A"/>
+  <handlers xmi:id="_vbV5MNxREeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handler.projectDeleteCommand" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.handlers.DeleteProjectHandler" command="_FfLdcNxKEeqHJORXopbKsw"/>
+  <handlers xmi:id="_4BIqUNxREeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handler.sourceAddCommand" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.handlers.AddSourceHandler" command="_OpB94NxKEeqHJORXopbKsw"/>
+  <handlers xmi:id="_8acz8NxREeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.handler.sourceRemoveCommand" contributionURI="bundleclass://xyz.sudr.photoscue.ui/xyz.sudr.photoscue.ui.handlers.RemoveSourceHandler" command="_k4C9wNxKEeqHJORXopbKsw"/>
+  <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
+    <bindings xmi:id="_6wlLhcgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.keybinding.m1s" keySequence="M1+S" command="_OpB94NxKEeqHJORXopbKsw"/>
+    <bindings xmi:id="_6wlLiMgZEeSyMNYR5xypkQ" elementId="xyz.sudr.photoscue.ui.keybinding.m1a" keySequence="M1+A" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+    <bindings xmi:id="_N80pENxTEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.keybinding.m1n" keySequence="M1+N" command="_QiQscNbQEeqjZYyM3KUD3A"/>
+  </bindingTables>
+  <rootContext xmi:id="_6wlLecgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_6wlLesgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_6wlLe8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_QiQscNbQEeqjZYyM3KUD3A" elementId="xyz.sudr.photoscue.ui.command.project.create" commandName="projectCreateCommand" description="Create a new project" category="_nmF0cNbQEeqjZYyM3KUD3A"/>
+  <commands xmi:id="_FfLdcNxKEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.command.project.delete" commandName="projectDeleteCommand" description="Delete selected project" category="_nmF0cNbQEeqjZYyM3KUD3A"/>
+  <commands xmi:id="_OpB94NxKEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.command.source.add" commandName="sourceAddCommand" description="Add source to selected project" category="_XGpqcNxKEeqHJORXopbKsw"/>
+  <commands xmi:id="_k4C9wNxKEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.command.source.remove" commandName="sourceRemoveCommand" description="Remove source from selected project" category="_XGpqcNxKEeqHJORXopbKsw"/>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <categories xmi:id="_nmF0cNbQEeqjZYyM3KUD3A" elementId="xyz.sudr.photoscue.ui.category.command.project" name="Project" description="Project command category"/>
+  <categories xmi:id="_XGpqcNxKEeqHJORXopbKsw" elementId="xyz.sudr.photoscue.ui.category.command.source" name="Source" description="Source command category"/>
+</application:Application>

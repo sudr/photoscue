@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Photoscue Domain
+Bundle-SymbolicName: xyz.sudr.photoscue.domain
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: sudr.xyz
+Automatic-Module-Name: xyz.sudr.photoscue.domain
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Import-Package: org.osgi.service.component.annotations,
+ xyz.sudr.photoscue.model,
+ xyz.sudr.photoscue.persistence
+Export-Package: xyz.sudr.photoscue.domain
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/xyz.sudr.photoscue.domain.ProjectServiceImpl.xml

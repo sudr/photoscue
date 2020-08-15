@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Local Filesystem Provider
+Bundle-SymbolicName: xyz.sudr.photoscue.provider.local
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: xyz.sudr.photoscue.provider.local.Activator
+Bundle-Vendor: sudr.xyz
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Automatic-Module-Name: xyz.sudr.photoscue.provider.local
+Bundle-ActivationPolicy: lazy

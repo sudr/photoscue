@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="xyz.sudr.photoscue.persistence.PersistenceServiceImpl">
+   <service>
+      <provide interface="xyz.sudr.photoscue.persistence.PersistenceService"/>
+   </service>
+   <implementation class="xyz.sudr.photoscue.persistence.PersistenceServiceImpl"/>
+</scr:component>
